@@ -56,6 +56,10 @@ nav {
 nav img {
   width: 80px;
 }
+svg {
+  height: 24px;
+  visibility: hidden;
+}
 
 header {
   background-image: url(imges/loewe-technology-azMs02-lAFk-unsplash.jpg);
@@ -271,6 +275,9 @@ footer h4 {
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 2rem 0 2rem 2rem;
     background: rgba(255, 255, 255, 1);
+  }
+  svg {
+    visibility: visible;
   }
   .nav_listcontainer:focus .nav-links,
   .nav_listcontainer:focus-within .nav-links {
