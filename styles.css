@@ -34,11 +34,11 @@ nav {
 
 .navbar {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin-top: 1em;
   gap: 20px;
+  margin-left: 1.5rem;
 }
 
 .nav-links {
@@ -46,15 +46,15 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  display: none;
+  display: 
 }
 
 .nav-links li {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 nav img {
-  width: 80px;
+  width: 100px;
 }
 
 header {
@@ -114,15 +114,19 @@ button {
 }
 
 .services > div {
-  text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   color: #1e1e1e;
-  margin-bottom: 20px;
 }
 
 .services img {
   width: 100px;
   cursor: pointer;
+  position: relative;
+}
+
+.service-img3{
+  position: absolute;
+  right: 20px;
 }
 
 .offers {
@@ -130,12 +134,13 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  gap: 15px;
+  gap: 50px;
   /*flex: 0 0 calc(50% - 1rem);*/
 }
 
 .citat {
   padding: 20px;
+  margin-top: -40px;
 }
 
 .textbox2 {
@@ -143,7 +148,8 @@ button {
   font-size: 24px;
   color: #1e1e1e;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
+  padding: 60px;
 }
 
 .textbox2 h5 {
@@ -156,7 +162,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 .card {
@@ -188,8 +194,8 @@ button {
 }
 
 .star {
-  margin-top: 10px;
   width: 100px;
+  margin-top: -30px;
 }
 
 .forms {
@@ -208,6 +214,12 @@ button {
   margin-bottom: 20px;
 }
 
+.textbox3 h2{
+  padding: 50px;
+  margin-top: -60px;
+  margin-bottom: -20px;
+}
+
 .btn2 {
   border: none;
   border-radius: 20px;
@@ -224,7 +236,7 @@ button {
   width: 100%;
   height: auto;
   object-fit: cover;
-  margin-top: 20px;
+  margin-top: -20px;
 }
 
 footer {
@@ -235,7 +247,7 @@ footer {
 
 footer h4 {
   color: #5a5a5a;
-  font-weight: 400;
+  font-weight: 200px;
 }
 
 .footer-links {
@@ -249,5 +261,11 @@ footer h4 {
 .footer-links li {
   color: black;
   font-size: 16px;
+  font-weight: bold;
   text-transform: uppercase;
+  line-height: 30px;
+}
+
+.footer-link1, .footer-link2, .footer-link3{
+  display: none;
 }
