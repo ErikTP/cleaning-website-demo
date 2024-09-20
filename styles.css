@@ -213,8 +213,8 @@ button {
 .forms {
   background-color: #d1dce7;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
   align-items: center;
 }
 
@@ -362,8 +362,8 @@ footer h4 {
 
   .forms {
 
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .hero-container {
