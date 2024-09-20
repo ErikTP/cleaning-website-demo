@@ -10,24 +10,53 @@
   <script src="https://kit.fontawesome.com/245a37506f.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  
-  <nav>
-    <div class="navbar">
+  <body>
+    <nav class="nav">
       <div class="logotitel">
-        <a href="#"><img src="imges/stadicon2.PNG" alt="stadafint-logo" /></a>
+        
       </div>
-          <ul class="nav-links">
-            <li><a href=""><p>Städning</p></a></li>
-            <li><a href=""><p>Våra tjänster</p></a></li>
-            <li><a href=""><p>Företag</p></a></li>
-            <li><a href=""><p>Här finns vi</p></a></li>
-            <li><a href=""><p>Mina sidor</p></a></li>
+      <div class="navbar">
+        <a href="#"></a>
+          <img src="imges/stadicon2.PNG" alt="stadafint-logo" />
+        </a>
+        <div class="nav_listcontainer" tabindex="0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+          <ul class="nav-links" id="navLinks">
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <p>Städning</p>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <p>Våra tjänster</p>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <p>Företag</p>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <p>Här finns vi</p>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <p>Mina sidor</p>
+              </a>
+            </li>
           </ul>
-          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-          <label for="vehicle1"><i class="fa-solid fa-bars"></i></label><br>   
-    </div>
-  </nav>
+          <a id="hamburger" href="#navmenu" title="menu" class="nav_hamburger">
+            <i class="fa fa-2x fa-hamburger"></i>
+          </a>
+        </div>
+        <a href="#!" title="close menu" class="nav_hamburgerclose"
+          ><i class="fa fa-2x fa-times-circle"></i
+        ></a>
+      </div>
+    </nav>
 
   <header>
     <div class="hero-container">
