@@ -38,6 +38,7 @@ nav {
   align-items: center;
   margin-top: 1em;
   margin-left: 1em;
+  margin-left: 1em;
 }
 
 .nav-links {
@@ -340,36 +341,3 @@ footer h4 {
     z-index: 1;
   }
 }
-
-@media screen and (min-width: 1024px) {
-    .navbar{
-      gap: 20px;
-    }
-
-    .nav-links li{
-      padding: 3px;
-      border-left: 2px solid black;
-    }
-
-    .cards {
-      flex-direction: row;
-      align-items: center;
-      gap: 50px;
-    }
-
-    .forms {
-
-      flex-direction: row;
-      align-items: center;
-    }
-
-    .hero-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding-top: 40px;
-    }
-    
-  }
-
