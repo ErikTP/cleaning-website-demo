@@ -199,11 +199,11 @@ button {
   border: solid 2px #eae8e1;
 }
 
-.card img {
+/* .card img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-}
+} */
 
 .star {
   width: 100px;
