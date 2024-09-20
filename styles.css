@@ -374,4 +374,12 @@ footer h4 {
     padding-top: 40px;
   }
   
+  .footer-link1, .footer-link2, .footer-link3{
+    display: initial;
+  }
+
+  .footer-links{
+    flex-direction: row;
+    justify-content: center;
+  }
 }
